@@ -50,7 +50,7 @@ function Home() {
 
                     <div>
                         <Card
-                            image="/recipeapp/recipe-project-thumbnail.png"
+                            image="recipeapp/recipe-project-thumbnail.png"
                             title="Rice of Passage"
                             tag1="case study" tag2="UI/UX Design"
                             description="A mobile app that aims to reduce the friction of daily meal preparation by reimagining the recipe discovery and organization experience."

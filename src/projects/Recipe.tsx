@@ -24,7 +24,7 @@ export default function Recipe() {
         <div className="bg-periwinkle">
             <Navbar />
             <div className="pt-5 font-serif text-navy">
-                <img className="w-full" src="/recipeapp/recipe-project-banner.png" />
+                <img className="w-full" src="recipeapp/recipe-project-banner.png" />
                 <div className="mx-10 lg:mx-25 my-5 lg:my-10 flex flex-row justify-between">
                     <div className="w-190 flex flex-col gap-1">
                         <h1 className="text-5xl lg:text-8xl">Rice of Passage</h1>
@@ -96,7 +96,7 @@ export default function Recipe() {
                                         also <span className="font-semibold italic">demonstrate how accessible home cooking can be, even on a student budget
                                             and schedule.</span></p>
                                 </div>
-                                <img className="w-90" src="/recipeapp/rice-cooker.png"></img>
+                                <img className="w-90" src="recipeapp/rice-cooker.png"></img>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@ export default function Recipe() {
                     <h1 className="mt-30 pb-5 font-semibold text-2xl lg:text-3xl">Persona</h1>
                     <div className="bg-lightest-blue p-20 rounded-lg">
                         <div className="flex flex-row flex-wrap gap-10 items-end">
-                            <img className="w-30 rounded-lg border-2 border-tag-dark" src="/recipeapp/sam.png"></img>
+                            <img className="w-30 rounded-lg border-2 border-tag-dark" src="recipeapp/sam.png"></img>
                             <div>
                                 <h2 className="font-semibold text-2xl lg:text-3xl">Sam</h2>
                                 <p>Male, 20</p>
@@ -201,7 +201,7 @@ export default function Recipe() {
                             <div className="flex flex-col gap-3 w-100 lg:w-155">
                                 <h2 className="font-semibold">Dilemma</h2>
                                 <p>An endless cycle of sacrificing his budget, diet and health goals for convenience. </p>
-                                <img className="rounded-lg border-2 border-tag-dark" src="/recipeapp/persona-diagram.png"></img>
+                                <img className="rounded-lg border-2 border-tag-dark" src="recipeapp/persona-diagram.png"></img>
                             </div>
                         </div>
 
@@ -215,22 +215,22 @@ export default function Recipe() {
                             which were then categorized into larger areas of focus.</p>
                         <div className="relative my-5">
                             <div className="absolute bg-tag-dark w-full h-full rounded-lg left-0.5 top-0.5"></div>
-                            <img className="relative rounded-lg border-2 border-tag-dark" src="/recipeapp/brainstorm.png"></img>
+                            <img className="relative rounded-lg border-2 border-tag-dark" src="recipeapp/brainstorm.png"></img>
                         </div>
                         <h1 className="mt-30 font-semibold text-2xl lg:text-3xl">Sketches</h1>
                         <p className="mt-2">I made 6 solution sketches to address one problem from each area of focus from the brainstorming session.</p>
                         <div className="relative my-5">
                             <div className="absolute bg-tag-dark w-full h-full rounded-lg left-0.5 top-0.5"></div>
-                            <img className="relative rounded-lg border-2 border-tag-dark" src="/recipeapp/hunch-sketches.png"></img>
+                            <img className="relative rounded-lg border-2 border-tag-dark" src="recipeapp/hunch-sketches.png"></img>
                         </div>
                         <h1 className="mt-30 font-semibold text-2xl lg:text-3xl">Paper Prototypes</h1>
                         <p className="mt-2">Rough paper drafts exploring different screen layouts and user flows to better understand  and refine the
                             solution concepts that started appearing in the hunch sketches:</p>
                         <div className="my-5">
                             <div className="rounded-lg bg-lightest-blue flex flex-row flex-wrap gap-10 justify-center p-10">
-                                <img className="w-80 rounded-lg border-2 border-tag-dark" src="/recipeapp/paper1.JPG"></img>
-                                <img className="w-80 rounded-lg border-2 border-tag-dark" src="/recipeapp/paper2.JPG"></img>
-                                <img className="w-80 rounded-lg border-2 border-tag-dark" src="/recipeapp/paper3.JPG"></img>
+                                <img className="w-80 rounded-lg border-2 border-tag-dark" src="recipeapp/paper1.JPG"></img>
+                                <img className="w-80 rounded-lg border-2 border-tag-dark" src="recipeapp/paper2.JPG"></img>
+                                <img className="w-80 rounded-lg border-2 border-tag-dark" src="recipeapp/paper3.JPG"></img>
                             </div>
                         </div>
                         <h1 className="mt-30 font-semibold text-2xl lg:text-3xl">Site Map</h1>
@@ -238,7 +238,7 @@ export default function Recipe() {
                             helpful in laying a strong foundation for defining user flows.</p>
                         <div className="relative my-5">
                             <div className="absolute bg-tag-dark w-full h-full rounded-lg left-0.5 top-0.5"></div>
-                            <img className="relative rounded-lg border-2 border-tag-dark" src="/recipeapp/sitemap.png"></img>
+                            <img className="relative rounded-lg border-2 border-tag-dark" src="recipeapp/sitemap.png"></img>
                         </div>
                         <h1 className="mt-30 font-semibold text-2xl lg:text-3xl">Task Flows</h1>
                         <p className="mt-2">With the sitemap as a guide, I focused on two key user flows to streamline the prototype and prioritize the
@@ -246,13 +246,13 @@ export default function Recipe() {
                         <div className="my-5">
                             <div className=" bg-lightest-blue rounded-lg font-semibold px-20 py-10 flex flex-col gap-5">
                                 <p>Task 1: Find a new recipe through recipes page</p>
-                                <img className="rounded-lg border-2 border-tag-dark" src="/recipeapp/task1.png"></img>
+                                <img className="rounded-lg border-2 border-tag-dark" src="recipeapp/task1.png"></img>
                                 <p className="pt-5">Task 2: Meal prep using recipe calendar</p>
-                                <img className="rounded-lg border-2 border-tag-dark" src="/recipeapp/task2.png"></img>
+                                <img className="rounded-lg border-2 border-tag-dark" src="recipeapp/task2.png"></img>
                             </div>
                         </div>
                         <h1 className="mt-30 font-semibold text-2xl lg:text-3xl">Low-Fidelity Wireframes</h1>
-                        <img className="mt-5 rounded-lg" src="/recipeapp/lowfi.png"></img>
+                        <img className="mt-5 rounded-lg" src="recipeapp/lowfi.png"></img>
                     </div>
 
                     <div ref={testingRef} className="my-30 lg:my-50">
@@ -266,7 +266,7 @@ export default function Recipe() {
                                         <p>Classic recipe format, with ingredients on the top and instructions on the bottom of the same page.</p>
                                         <p className="mt-5 font-medium">It’s easy for users to lose their place when scrolling back and forth between measurements and instructions.</p>
                                     </div>
-                                    <img className="w-35 md:w-50" src="/recipeapp/option1.png"></img>
+                                    <img className="w-35 md:w-50" src="recipeapp/option1.png"></img>
                                 </div>
                             </div>
                             <div className="relative bg-navy rounded-xl border-5 border-lime-200 w-145 text-white p-10">
@@ -278,7 +278,7 @@ export default function Recipe() {
                                         <p className="mt-5 font-medium text-lime-200">Users can instantly navigate between instructions and ingredients without losing their place on one
                                             section or the other.</p>
                                     </div>
-                                    <img className="w-35 md:w-50" src="/recipeapp/option2.png"></img>
+                                    <img className="w-35 md:w-50" src="recipeapp/option2.png"></img>
                                 </div>
                             </div>
                         </div>
@@ -287,7 +287,7 @@ export default function Recipe() {
                             complete a task using the screens while thinking aloud, which helped reveal points of confusion or friction. I classified their feedback using
                             <span className="font-semibold italic"> Nielsen's 10 Usability Heuristics</span>, which allowed me to see the impact of certain design decisions and
                             identify solutions that address any faulty designs.</p>
-                        <Carousel slides={["/recipeapp/Insights.png", "/recipeapp/Insights-1.png", "/recipeapp/Insights-2.png", "/recipeapp/Insights-3.png"]}></Carousel>
+                        <Carousel slides={["recipeapp/Insights.png", "recipeapp/Insights-1.png", "recipeapp/Insights-2.png", "recipeapp/Insights-3.png"]}></Carousel>
                     </div>
 
                     <div ref={resultsRef} className="my-10 lg:my-30">
@@ -295,19 +295,19 @@ export default function Recipe() {
                         <h1 className="mt-5 font-semibold text-2xl lg:text-3xl mb-5">Final Prototype</h1>
                         <div className="bg-navy text-white rounded-lg flex flex-row flex-wrap gap-[3%] text-center justify-center">
                             <div className="p-10 flex flex-col gap-2 items-center ">
-                                <img className="w-60 rounded-xl border-2 border-tag-dark mb-5" src="/recipeapp/explore-and-save.gif"></img>
+                                <img className="w-60 rounded-xl border-2 border-tag-dark mb-5" src="recipeapp/explore-and-save.gif"></img>
                                 <h2 className="font-condensed font-semibold">Explore and Save</h2>
                                 <p className="w-70 font-light text-md lg:text-lg">The user can navigate through the app to find a recipe, then save it to a board in the recipe 
                                     library for organization and later reference.</p>
                             </div>
                             <div className="p-10 flex flex-col gap-2 items-center">
-                                <img className="w-60 rounded-xl border-2 border-tag-dark mb-5" src="/recipeapp/reminder.gif"></img>
+                                <img className="w-60 rounded-xl border-2 border-tag-dark mb-5" src="recipeapp/reminder.gif"></img>
                                 <h2 className="font-condensed font-semibold">Meal Prep Reminders</h2>
                                 <p className="w-70 font-light text-md lg:text-lg">Each recipe has a section dedicated to suggestions for cooking part of the dish ahead of time. 
                                     Each suggestion can be added to a weekly task list on the recipe calendar.</p>
                                 </div>
                             <div className="p-10 flex flex-col gap-2 items-center">
-                                <img className="w-60 rounded-xl border-2 border-tag-dark mb-5" src="/recipeapp/recipe-calendar.gif"></img>
+                                <img className="w-60 rounded-xl border-2 border-tag-dark mb-5" src="recipeapp/recipe-calendar.gif"></img>
                         <h2 className="font-condensed font-semibold">Recipe Calendar</h2>
                                 <p className="w-70 font-light text-md lg:text-lg">Each day of the week can be populated with recipes from the recipe library. The task 
                                     list has an option to toggle notification reminders.</p>
