@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import url("https://use.typekit.net/hpz0eho.css");
+
+
+@theme {
+  --color-periwinkle: #BBD3E5;
+  --color-lightest-blue: #ECF7FF;
+  --color-navy: #083556;
+  --color-dark-grey:#6989A0;
+  --color-tag-light: #D5E4EF;
+  --color-tag-dark: #97BBD5;
+
+  --font-serif: "georgiapro", Georgia, ui-serif, "Times New Roman", Times, serif;
+  --font-condensed: "georgiapro-condensed", "georgiapro", Georgia, ui-serif;
+  --text-md--line-height: .1rem;
+  --text-lg--line-height: 1.5rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 1.8rem;
+  --text-3xl: 2.375rem;
+  --text-8xl: 7rem;
+
+  --border: 3px;
+
+}
