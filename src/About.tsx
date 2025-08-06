@@ -18,7 +18,7 @@ function About() {
                         <p>In my free time, you can find me going on picnics and nature walks, tackling giant jigsaw puzzles, and trying new recipes! </p>
                     </div>
                 </div>
-                <img className="relative w-full object-contain top-10" src="about.png" />
+                <img className="relative w-5/12 object-contain top-10" src="about.png" />
             </div>
             <Footer />
         </div>
