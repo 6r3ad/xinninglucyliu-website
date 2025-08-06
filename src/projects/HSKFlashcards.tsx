@@ -12,9 +12,10 @@ export default function HSKFlashcards() {
                     <div className="w-210 flex flex-col gap-1">
                         <h1 className="text-5xl lg:text-7xl">HSK Flashcard Maker</h1>
                         <p className="text-dark-grey text-lg lg:text-3xl italic">case study + design</p>
-                        <p className="text-lg lg:text-2xl mt-4">A Chinese flashcard app that scans a large body of text and sorts every 
+                        <p className="text-lg lg:text-2xl my-4">A Chinese flashcard app that scans a large body of text and sorts every 
                             unique vocabulary that appears in the text into different HSK difficulty flashcard decks, which can then be 
                             saved, and viewed. The user just needs to import their reading material.</p>
+                        <a href="https://readymag.website/u118645311/5073165/flashcards/">Working to move this page from previous portfolio!</a>
                     </div>
                     <div className="font-semibold text-2xl w-fit flex flex-col gap-9">
                         <div>
