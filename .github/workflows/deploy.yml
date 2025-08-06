@@ -28,18 +28,24 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '20'
+        
+    - name: Verify package.json
+      run: |
+        echo "Checking if package.json exists:"
+        ls -la package.json
+        echo "Contents of package.json:"
+        cat package.json
         
     - name: Install dependencies
       run: npm install
       
-    - name: Verify package.json
+    - name: Build React App
       run: |
-        echo "Checking package.json scripts:"
-        cat package.json | grep -A 10 '"scripts"'
-        
-    - name: Build
-      run: npm run build
+        echo "Running TypeScript build..."
+        npx tsc -b
+        echo "Running Vite build..."
+        npx vite build
       
     - name: Setup Pages
       uses: actions/configure-pages@v5
