@@ -7,7 +7,7 @@ export default function Gallery() {
         <div className="bg-periwinkle text-navy font-serif">
             <Navbar />
             <div className="p-20">
-                <h1 className="text-3xl lg:text-8xl my-10 text-center">Art Gallery</h1>
+                <h1 className="text-5xl md:text-7xl lg:text-8xl my-10 text-center">Art Gallery</h1>
                 <GalleryImages />
             </div>
             <Footer />
