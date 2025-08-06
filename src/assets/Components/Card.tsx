@@ -11,7 +11,7 @@ type CardProps = {
 
 export default function Card({ image, title, tag1, tag2, description, link }: CardProps) {
     return (
-        <div className="relative w-116">
+        <div className="relative w-90 md:w-116">
             <Link to={link}>
                 <div className="absolute bg-tag-dark w-full h-full rounded-lg left-0.5 top-0.5"></div>
                 <div className="relative bg-white p-4 justify-start rounded-lg border border-tag-dark">
