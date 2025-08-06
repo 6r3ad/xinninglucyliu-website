@@ -15,7 +15,7 @@ export default function HSKFlashcards() {
                         <p className="text-lg lg:text-2xl my-4">A Chinese flashcard app that scans a large body of text and sorts every 
                             unique vocabulary that appears in the text into different HSK difficulty flashcard decks, which can then be 
                             saved, and viewed. The user just needs to import their reading material.</p>
-                        <a href="https://readymag.website/u118645311/5073165/flashcards/">Working to move this page from previous portfolio!</a>
+                        <a className="text-lg lg:text-2xl underline" href="https://readymag.website/u118645311/5073165/flashcards/">Working to move this page from previous portfolio!</a>
                     </div>
                     <div className="font-semibold text-2xl w-fit flex flex-col gap-9">
                         <div>
