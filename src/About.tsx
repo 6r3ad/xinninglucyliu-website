@@ -6,7 +6,7 @@ function About() {
         <div className="bg-periwinkle">
             <Navbar />
             <div className="relative container mx-auto min-w-screen h-full flex items-top py-10 ps-5 lg:ps-10">
-                <img className="absolute p-10 top-0 left-0 w-[858]" src="about-folder.svg"/>
+                <img className="absolute p-10 top-0 left-0 w-full" src="about-folder.svg"/>
                 <div className="relative w-7/12 flex flex-col gap-10 px-10 pt-8 font-serif text-navy">
                     <h1 className="text-6xl lg:text-8xl">About Me</h1>
                     <div className="text-md lg:text-xl flex flex-col gap-4">
@@ -18,7 +18,7 @@ function About() {
                         <p>In my free time, you can find me going on picnics and nature walks, tackling giant jigsaw puzzles, and trying new recipes! </p>
                     </div>
                 </div>
-                <img className="relative w-5/12 object-contain top-10" src="about.png" />
+                <img className="relative w-full object-contain top-10" src="about.png" />
             </div>
             <Footer />
         </div>
