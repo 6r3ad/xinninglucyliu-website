@@ -4,7 +4,9 @@ import Home from "./Home";
 import Gallery from "./Gallery";
 import About from "./About";
 import Recipe from './projects/Recipe';
+import ScavengerHunt from './projects/ScavengerHunt';
 import HSKFlashcards from './projects/HSKFlashcards';
+
 
 function App() {
   
@@ -16,6 +18,7 @@ function App() {
           <Route path="/gallery" element={<Gallery/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/projects/riceofpassage" element={<Recipe />} />
+          <Route path="/projects/scavengerhunt" element={<ScavengerHunt />} />
           <Route path="/projects/hskflashcardmaker" element={<HSKFlashcards />} />
         </Routes>
       </div>

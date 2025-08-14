@@ -58,11 +58,11 @@ function Home() {
                     </div>
                     <div>
                         <Card
-                            image="HSK-thumbnail.png"
-                            title="HSK Flashcard Maker"
-                            tag1="case study" tag2="UI/UX Design"
-                            description="A Chinese flashcard tool that scans a large body of text and sorts vocabulary into different difficulty flashcard decks."
-                            link="/projects/hskflashcardmaker" />
+                            image="maps/maps-thumbnail.png"
+                            title="Apple Maps Scavenger Hunt"
+                            tag1="mobile feature" tag2="UI/UX Design"
+                            description="A feature that inspires local exploration by letting users contribute their own photos under a prompt and shows where similar images have been captured."
+                            link="/projects/scavengerhunt" />
                     </div>
                     <div>
                         <Card
